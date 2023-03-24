@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- render_stratis_script_tag() %>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>SolarMelts - the future of deicing</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Assets
+    ================================================== -->
+    <link rel="apple-touch-icon" href="assets/images/logo/favicon.png">
+    <link rel="icon" type="image/png" href="assets/images/logo/favicon.png">
+    <link href="style.css" rel="stylesheet">
+
+    <script lang="javascript">
+        function run_on_load() {
+            console.log("Loaded")
+            document.getElementById('banner_box').style.opacity = 1
+        }
+    </script>
+</head>
+
+<body onload="run_on_load()">
+    <div class="main_container flex_container">
+        <div class="flex_box"></div>
+        <div id="banner_box" class="flex_box show_transition_box_hidden show_transition_box"
+            style="flex:none;text-align: center; opacity: 0;">
+            <img src="assets/images/logo/favicon.png" style="width: 100pt;"><img>
+            <p class="banner head_banner">SolarMelts</p>
+            <p class="banner sub_banner">Solar activated snow and ice melting</p>
+            <p class="banner info_banner">Under construction</p>
+        </div>
+        <div class="flex_box"></div>
+    </div>
+</body>
+
+</html>

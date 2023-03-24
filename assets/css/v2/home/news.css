@@ -1,0 +1,92 @@
+.news {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/background/half-bg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: unset !important;
+  -webkit-text-stroke: 2px #f78419;
+}
+.news h1 {
+  position: absolute;
+  width: 100%;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 16vw;
+  color: rgba(0, 0, 0, 0) !important;
+  letter-spacing: -2px;
+  text-align: center;
+  margin: 50px 0;
+  text-align: center;
+  font-family: unset !important;
+}
+.news .half-div {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  padding: 40px 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.news .half-div h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #f78419;
+  line-height: 150%;
+  -webkit-text-stroke: white;
+}
+.news .half-div p {
+  max-width: 80%;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #b0b0b0;
+  line-height: 100%;
+  -webkit-text-stroke: white;
+}
+.news .half-div a {
+  background-color: #f78419;
+  color: #fff;
+  padding: 10px 40px;
+  text-decoration: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  -webkit-text-stroke: white;
+}
+@media screen and (max-width: 768px) {
+  .news h1 {
+    z-index: 2;
+  }
+  .news .half-div {
+    width: 70%;
+    padding: 10px;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    background-color: transparent;
+    z-index: 1;
+    display: grid;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .news h1 {
+    margin: 20px 0;
+    z-index: 2;
+  }
+  .news .half-div {
+    width: 100%;
+    padding: 10px;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    background-color: transparent;
+    z-index: 1;
+  }
+  .news a {
+    text-align: center;
+  }
+}/*# sourceMappingURL=news.css.map */

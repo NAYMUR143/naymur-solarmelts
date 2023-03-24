@@ -1,0 +1,43 @@
+.footer-top {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  padding: 20px 0 !important;
+
+  .newsletter-container {
+    padding: 0 40px;
+
+    display: flex;
+    width: 100%;
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+      padding: 8px;
+      width: 100%;
+    }
+
+    .newspaper {
+      cursor: pointer;
+      background-color: #fa7a18;
+      color: black;
+      padding: 8px;
+      margin-left: 6px;
+    }
+
+    > div {
+      display: flex;
+      align-items: center;
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .newsletter-container {
+      flex-direction: column;
+    }
+  }
+}

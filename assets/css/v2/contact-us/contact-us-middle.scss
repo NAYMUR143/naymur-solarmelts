@@ -1,0 +1,18 @@
+.contact-us-middle {
+  h2 {
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  @media screen and (max-width: 1200px) {
+    h2 {
+      font-size: 6vw;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 8vw;
+    }
+  }
+}

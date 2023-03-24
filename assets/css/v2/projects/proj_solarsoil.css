@@ -1,0 +1,155 @@
+.news {
+  background-image: url(/assets/images/work/sample_onsand1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: unset !important;
+  background-repeat: no-repeat;
+}
+.news .half-div {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px 20px 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.news .half-div p {
+  max-width: 80%;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #b0b0b0;
+  line-height: 150%;
+  -webkit-text-stroke: white;
+}
+.news .half-div a {
+  background-color: #f78419;
+  color: #fff;
+  padding: 10px 40px;
+  text-decoration: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  -webkit-text-stroke: white;
+}
+.news .go-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.news .go-row p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 120%;
+  font-weight: 600;
+  margin-bottom: unset;
+}
+@media screen and (max-width: 1200px) {
+  .news .go-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 80px 0 20px 40px;
+  }
+  .news .go-row p {
+    max-width: 96%;
+  }
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #404040;
+  line-height: 150%;
+  -webkit-text-stroke: white;
+}
+h2 span {
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #0172da;
+  color: #fff;
+}
+
+.airplane {
+  background-image: url(/assets/images/work/deicing-airplane-airport_000.jpg);
+}
+
+.seeds {
+  background-image: url(/assets/images/work/solarsand_largeGrain.jpg);
+}
+
+.vision {
+  background-image: linear-gradient(rgba(255, 255, 0, 0.25), rgba(255, 255, 0, 0.25)), url(/assets/images/background/vision-bg.jpg);
+  height: 60vh;
+}
+.vision .half-div {
+  width: 70%;
+  margin-left: auto;
+  background-color: #f78419;
+}
+.vision .half-div h2 {
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .vision {
+    height: 80vh !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .vision .half-div {
+    padding: 10px;
+    width: 80% !important;
+  }
+  .vision .half-div h2 {
+    font-size: 2rem;
+  }
+}
+
+.contact-us {
+  background-image: linear-gradient(rgba(255, 255, 0, 0.25), rgba(255, 255, 0, 0.25)), url(/assets/images/background/contact-bg.jpg);
+}
+
+.team-custom {
+  background-image: linear-gradient(rgba(255, 255, 0, 0.25), rgba(255, 255, 0, 0.25)), url(/assets/images/background/team-bg.jpg);
+}
+
+@media screen and (max-width: 1200px) {
+  .news .half-div {
+    padding: 20px;
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .news .half-div {
+    padding: 20px;
+    width: 100% !important;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+  }
+  .news .half-div h2 {
+    font-size: 2.4rem !important;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 425px) {
+  .news .half-div {
+    padding: 10px;
+  }
+  .news .half-div h2 {
+    font-size: 10vw !important;
+  }
+  .news .half-div h2 span {
+    padding: 2px;
+  }
+}/*# sourceMappingURL=proj_solarsoil.css.map */

@@ -1,0 +1,55 @@
+.what-we-do-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-text-stroke: 2px #fa7a18;
+  position: relative;
+
+  h1 {
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 12vw;
+    color: rgba(0, 0, 0, 0) !important;
+    letter-spacing: -2px;
+    text-align: center;
+    font-family: unset !important;
+  }
+
+  .title-cont {
+    max-width: 40%;
+
+    text-align: center;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: #404040;
+
+      line-height: 150%;
+      margin: unset;
+
+      -webkit-text-stroke: white;
+    }
+
+    p {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #b0b0b0;
+
+      line-height: 150%;
+
+      -webkit-text-stroke: white;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .title-cont {
+      max-width: 100%;
+    }
+
+    h1 {
+      font-size: 16vw;
+    }
+  }
+}

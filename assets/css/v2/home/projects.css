@@ -1,0 +1,51 @@
+.work--title-projects h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #404040;
+  margin-bottom: 100px;
+  text-align: right;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+.projects-container .single-projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.projects-container .single-projects .proj-img-cont {
+  max-width: 50%;
+}
+.projects-container .single-projects .proj-img-cont img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.projects-container .single-projects .projects-explain-cont {
+  margin-left: 20px;
+  text-align: left;
+}
+.projects-container .single-projects .projects-explain-cont h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #404040;
+  line-height: 150%;
+  margin: unset;
+}
+.projects-container .single-projects .projects-explain-cont p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #666;
+  line-height: 150%;
+}
+.projects-container .single-projects .projects-explain-cont a {
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #fa7a18;
+  color: #ffffff;
+}/*# sourceMappingURL=projects.css.map */
