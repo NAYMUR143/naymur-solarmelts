@@ -77,92 +77,128 @@
       rel="stylesheet"
       href="./assets/css/v2/contact-us/contact-us-middle.css"
     />
+    <link rel="stylesheet" href="./assets/css/v2/home/head.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"
+      defer
+    ></script>
+    <script src="assets/js/v2/bar-div.js" defer></script>
   </head>
 
   <body>
     <!--include includes/pre-loader.pug-->
     <!-- Document Wrapper-->
     <div class="wrapper clearfix" id="wrapperParallax">
-      <header
-        class="header header-1 header-13 header-transparent"
-        id="navbar-spy"
-      >
+      <header class="header header-1 header-13" id="navbar-spy">
         <nav
           class="navbar navbar-expand-lg navbar-light navbar-bordered navbar-sticky"
           id="primary-menu"
         >
-          <div class="container">
-            <a class="navbar-brand" href="index.html"
-              ><img
-                class="logo logo-light"
-                src="assets/images/logo/Biglogo_wText_trans.png"
-                alt="SolarMelts Logo" /><img
-                class="logo logo-dark"
-                src="assets/images/logo/Biglogo_wText_trans.png"
-                alt="SolarMelts Logo"
-            /></a>
-            <button
-              class="navbar-toggler collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarContent"
-              aria-controls="navbarContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+          <div class="bar-div">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="#fff"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--  Collect the nav links, forms, and other content for toggling  -->
-            <div class="collapse navbar-collapse" id="navbarContent">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a href="index.html"><span>Home</span></a>
-                </li>
-                <li class="nav-item">
-                  <a href="team.html"><span>Team</span></a>
-                </li>
-                <li class="nav-item">
-                  <a href="vision.html"><span>Vision</span></a>
-                </li>
-                <li class="nav-item has-dropdown">
-                  <a
-                    class="dropdown-toggle"
-                    href="project.html"
-                    data-toggle="dropdown"
-                  >
-                    <span>projects</span>
-                  </a>
-
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a href="proj_solarsoil.html"><span>SolarSoil</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="proj_skymelt.html"
-                        ><span>Airplane De-icer</span></a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a href="proj_carbon_seedballs.html"
-                        ><span>Carbon SeedBalls</span></a
-                      >
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="nav-item">
-                  <a href="gallery.html"><span>Gallery</span></a>
-                </li>
-
-                <li class="nav-item active">
-                  <a href="contact.html"><span>Contact Us</span></a>
-                </li>
-              </ul>
-            </div>
-            <!--  End .navbar-collapse-->
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
           </div>
-          <!--  End .container  -->
+
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="logo logo-dark"
+              src="assets/images/logo/Biglogo_wText_trans.png"
+              alt="SolarMelts Logo"
+            />
+          </a>
+
+          <a href="contact.html"><span>Contact Us</span></a>
         </nav>
+
+        <div class="nav-overlay">
+          <div class="div1 stagger">
+            <div>
+              <h2>Its so easy</h2>
+              <p>You've got two options!</p>
+            </div>
+
+            <div class="div1-last-div">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000"
+                  class="bi bi-linkedin"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                  />
+                </svg>
+
+                <a href="#">REACH US ON LINKEDIN</a>
+              </div>
+
+              <div class="contact-last-div">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000"
+                  class="bi bi-envelope"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                  />
+                </svg>
+
+                <a href="/contact.html">CONTACT US</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="div2 stagger">
+            <ul>
+              <li>
+                <a href="index.html"><span>Home</span></a>
+              </li>
+              <li>
+                <a href="team.html"><span>Team</span></a>
+              </li>
+              <li>
+                <a href="vision.html"><span>Vision</span></a>
+              </li>
+              <li>
+                <a href="proj_solarsoil.html"><span>Project SolarSoil</span></a>
+              </li>
+              <li>
+                <a href="proj_skymelt.html"
+                  ><span>Project SkyMelt: Airplane De-icer</span></a
+                >
+              </li>
+              <li>
+                <a href="proj_carbon_seedballs.html"
+                  ><span>Project Carbon SeedBalls</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="gallery.html"><span>Gallery</span></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="div3 stagger">
+            <p class="close-nav-overlay"><span>&#x2716;</span></p>
+          </div>
+        </div>
       </header>
 
       <section class="news vision contact-us">

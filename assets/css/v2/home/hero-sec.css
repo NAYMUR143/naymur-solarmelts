@@ -3,19 +3,13 @@
   height: 120vh;
   width: 100%;
   padding-top: 180px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/images/background/sun_over_plowed_road.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/background/sun_over_plowed_road.jpeg);
   background-position: center;
   background-size: cover;
 }
 .hero-sec .cloud {
   width: 100%;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.0001) 1%,
-    rgba(255, 255, 255, 0.001) 2%,
-    rgba(255, 255, 255, 0.01) 5%,
-    rgb(255, 255, 255) 90%
-  );
+  background: linear-gradient(rgba(255, 255, 255, 0.0001) 1%, rgba(255, 255, 255, 0.001) 2%, rgba(255, 255, 255, 0.01) 5%, rgb(255, 255, 255) 90%);
   height: 400px !important;
   position: absolute;
   bottom: 0;
@@ -28,17 +22,19 @@
   font-weight: 500;
   color: #fff;
   text-transform: capitalize;
+  text-align: center;
 }
 .hero-sec p {
   font-size: 1.2rem;
   font-weight: 500;
   color: #ddd;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .hero-sec {
     padding-top: 100px !important;
   }
-  .hero-sec h1 {
+  .hero-sec h2 {
     font-size: 3rem;
   }
 }
@@ -52,4 +48,4 @@
   .hero-sec p {
     font-size: 5vw;
   }
-} /*# sourceMappingURL=hero-sec.css.map */
+}/*# sourceMappingURL=hero-sec.css.map */

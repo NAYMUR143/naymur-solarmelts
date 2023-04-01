@@ -1,0 +1,164 @@
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px;
+}
+.header nav div {
+  display: grid;
+  cursor: pointer;
+  transform: scale(2);
+  background-color: #fa7a18;
+  border-radius: 50%;
+  padding: 2px;
+}
+.header nav a span {
+  font-size: 1.2rem;
+  color: #fa7a18;
+}
+@media screen and (max-width: 600px) {
+  .header nav a:last-child {
+    display: none;
+  }
+  .header nav .logo {
+    max-width: 100%;
+    width: 150px;
+  }
+}
+.header .nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% auto 100px;
+  background-color: #fff;
+  z-index: 9999;
+  padding-left: 140px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(10%) scale(0.9);
+}
+.header .nav-overlay .div1 {
+  margin: 140px 0;
+  display: grid;
+  grid-template-rows: 50% auto;
+}
+.header .nav-overlay .div1 h2 {
+  font-size: 4.6rem;
+  line-height: 100%;
+  margin-bottom: unset;
+  font-weight: 500;
+  color: #313131;
+}
+.header .nav-overlay .div1 p {
+  margin-bottom: unset;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+.header .nav-overlay .div1 .div1-last-div {
+  display: flex;
+  align-items: flex-end;
+}
+.header .nav-overlay .div1 .div1-last-div div {
+  display: flex;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #fa7a18;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.header .nav-overlay .div1 .div1-last-div div a {
+  font-size: 1rem;
+  margin-left: 8px;
+  line-height: 90%;
+  text-decoration: none;
+  color: #313131;
+}
+.header .nav-overlay .div1 .div1-last-div .contact-last-div {
+  margin-left: 100px;
+}
+.header .nav-overlay .div2 {
+  margin-top: 140px;
+}
+.header .nav-overlay .div2 ul li {
+  margin: 10px 0;
+}
+.header .nav-overlay .div2 ul li a {
+  font-size: 1.8rem;
+  color: #fa7a18;
+}
+.header .nav-overlay .div3 {
+  background-color: #fa7a18;
+  display: flex;
+  justify-content: center;
+}
+.header .nav-overlay .div3 .close-nav-overlay {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  margin: 16px 0;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header .nav-overlay .div3 .close-nav-overlay span {
+  color: #313131;
+  font-weight: 800;
+}
+.header .stagger {
+  opacity: 0;
+  transform: translateX(10%);
+}
+
+#back-to-top {
+  z-index: 99;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-overlay {
+    align-content: center;
+    padding-left: 20px !important;
+    padding: 20px;
+    grid-template-columns: 100% !important;
+    grid-template-rows: 60px auto 160px;
+  }
+  .nav-overlay .div1 {
+    order: 3;
+    margin-top: auto !important;
+  }
+  .nav-overlay .div1 .div1-last-div {
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  .nav-overlay .div1 .div1-last-div .contact-last-div {
+    margin-left: auto !important;
+  }
+  .nav-overlay .div2 {
+    order: 2;
+    margin-top: auto !important;
+  }
+  .nav-overlay .div2 li {
+    margin: 15px 0 !important;
+  }
+  .nav-overlay .div2 li a {
+    font-size: 1.2rem !important;
+  }
+  .nav-overlay .div3 {
+    order: 1;
+    align-items: center;
+    justify-content: flex-end !important;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .nav-overlay .div1 h2 {
+    font-size: 10vw !important;
+  }
+  .nav-overlay .div1 p {
+    font-size: 1.2rem !important;
+  }
+}/*# sourceMappingURL=head.css.map */

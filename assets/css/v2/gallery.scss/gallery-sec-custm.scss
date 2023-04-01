@@ -82,3 +82,23 @@ a.pp_close {
 a {
   text-decoration: none !important;
 }
+
+.btn-group {
+  button {
+    font-size: 0.9rem !important;
+  }
+
+  button:focus {
+    box-shadow: unset;
+  }
+}
+
+.grid {
+  img {
+    padding: 5px;
+  }
+
+  iframe {
+    padding: 5px;
+  }
+}
