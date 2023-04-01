@@ -13,11 +13,15 @@ document
 // display: grid;
 
 setTimeout(() => {
-  Object.assign(document.querySelector(".subs-cont").style, {
-    display: "grid",
-  });
+  if (!sessionStorage.getItem("solarMltCount")) {
+    sessionStorage.setItem("solarMltCount", 1);
 
-  Object.assign(document.querySelector("html").style, {
-    overflow: "hidden",
-  });
+    Object.assign(document.querySelector(".subs-cont").style, {
+      display: "grid",
+    });
+
+    Object.assign(document.querySelector("html").style, {
+      overflow: "hidden",
+    });
+  }
 }, 2500);
